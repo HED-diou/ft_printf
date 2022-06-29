@@ -52,16 +52,3 @@ int	ft_printf(const char *string, ...)
 	va_end(arg_ptr);
 	return (cmp);
 }
-
-// int main()
-// {
-//     char *x = "??????";
-//     //int d = 123;
-//     //char *a = "12";
-//    //void *p = (unsigned long long)a;
-//     int b =    printf("%s\n" ,x);
-//     int a = ft_printf("%s\n" ,x);
-//     ft_printf("%d \n", a);
-//      printf("%d \n", b);
-//     //printf("%d \n",a);
-// }
